@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar{
+    padding: 24px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+}
+.navbar .logo{
+    padding:0 25px;
+}
+.signin a{
+    text-decoration: none;
+    color:#212121;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 25px;
+}
+.signup-steps{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 130px 0 200px;
+}
+.signup-home{
+    width:100%;
+    max-width: 360px;
+    text-align: center;
+}
+.product-img img{
+    width:260px;
+    margin:0 0 20px 0;
+}
+.steps-counter span{
+    font-size: 0.8rem;
+}
+.steps-counter h1{
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+.context{
+    font-size: 1.2rem;
+    color:#535353;
+}
+.next-btn{
+    width:fit-content;
+    padding-top: 24px;
+}
+.next-btn button{
+    font-size: 1.3rem;
+    color:#fff;
+    background-color: #E50914;
+    border: none;
+    padding:20px 160px;
+    border-radius: 5px;
+}
+.input-field{
+    position: relative;
+    width: 100%;
+    border:1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 15px;
+}
+.input-field span{
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    pointer-events: none;
+    transition: 0.2s;
+}
+.input-field input{
+    /* width:100%; */
+    background:transparent;
+    border: none;
+    outline:none;
+    font-size: 1em;
+    padding:10px;
+    margin-top: 5px;
+    /* letter-spacing: 0.1em; */
+}
+
+.input-field input:focus ~ span{
+    transform: translateY(-10px);
+    font-size: 0.65em;
+}
+
+.signup-steps-two .instructions ul li{
+    text-align: left;
+    list-style: none;
+    margin-bottom: 20px;
+}
+footer{
+    background: #efefefbd;
+    color:#737373;padding-bottom: 20px;
+    border-top: 1px solid #d7d7d7;
+}
+.footer-box{
+    padding-top: 30px;
+    margin:0 37px;
+}
+.footer-box .contact{
+    margin-bottom: 16px;
+}
+.footer-box ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 16px;
+}
+.footer-box ul li{
+    list-style: none;
+    padding-right: 16px;
+    margin-bottom: 16px;
+}
